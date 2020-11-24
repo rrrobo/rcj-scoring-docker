@@ -4,6 +4,7 @@ mkdir -p logs
 mkdir -p db
 mkdir -p documents
 mkdir -p fonts
+mkdir -p mailTemplates
 echo "最新版のイメージをDocker Hubよりダウンロードします"
 sudo docker pull ryorobo/rcj-rescue-scoring-japan:latest
 echo "イメージを起動します"
